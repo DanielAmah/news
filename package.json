@@ -6,8 +6,8 @@
   "scripts": {
     "test": "jest",
     "start": "node server.js",
-    "build": "webpack -d && cp src/index.html dist/index.html && webpack-dev-server --content-base src/ --inline --hot --history-api-fallback",
-    "postinstall": "webpack -p && cp src/index.html public/index.html && cp src/server.js server.js"
+    "build": "webpack -d && cp src/index.html public/index.html && webpack-dev-server --content-base src/ --inline --hot --history-api-fallback",
+    "postinstall": "webpack -p && cp src/index.html public/index.html && cp src/server.js gserver.js"
   },
   "repository": {
     "type": "git",
