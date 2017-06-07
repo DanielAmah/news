@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "start": "node server.js",
+    "start": "node public/server.js",
     "build": "webpack -d && cp src/index.html public/index.html && webpack-dev-server --content-base src/ --inline --hot --history-api-fallback",
-    "postinstall": "webpack -p && cp src/index.html public/index.html && cp src/server.js server.js"
+    "postinstall": "webpack -p && cp src/index.html public/index.html && cp src/server.js public/server.js"
   },
   "repository": {
     "type": "git",
@@ -15,7 +15,7 @@
   },
   "keywords": [
     "News",
-    "Head",
+    "Head", 
     "lines"
   ],
   "author": "Daniel Amah",
